@@ -2,41 +2,61 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:midnightblue;
     background-image:linear-gradient(22.5deg,darkslateblue, midnightblue);
+    background-attachment:fixed;
     color: aliceblue;
-    height:1225px;
     text-align:center;
 }
 h1{
     font-size:50px;
     transition-duration:1s;
     font-weight:light;
+    padding-top: 20px;
 }
 h1:hover{
     text-shadow:cornflowerblue 0px 2.5px;
 }
-ul{
+section{
     list-style-type:none;
     margin-left: 10%;
     padding: 0;
     width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
 }
-li{
-    float:left;
+button{
+    margin-left:auto;
+    border:none;
 }
-li a {
+a button {
     display: inline;
-    padding:10px;
-    background-color:cornflowerblue;
+    padding:15px 45px;
+    background-color:slateblue;
+    color: aliceblue;
     text-decoration: none;
+    cursor:pointer;
+    margin: 0px 5px;
+    border-radius:15px 15px 0px 0px;
+    transition-duration:1s;
 }
-li a:hover:not(.active){
-    background-color:black;
-    color:white;
+a{
+    text-decoration:none;
+}
+a button:hover:not(.active){
+    background-color:aliceblue;
+    color:slateblue;
+    box-shadow: navy 0px -5px;
+    font-style:italic;    
 }
 .active{
-    background-color: whitesmoke;
-    color: black;
+    background-color: aliceblue;
+    color: slateblue;
 }
 .right{
-    float:right;
+    margin-right:auto;
+}
+.folder{
+    background-image: linear-gradient(185deg, slateblue, darkslateblue);
+    height:700px;
 }
