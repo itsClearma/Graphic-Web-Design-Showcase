@@ -1,0 +1,16 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:midnightblue;
+    background-image:linear-gradient(22.5deg,darkslateblue, midnightblue);
+    color: aliceblue;
+    height:1225px;
+    text-align:center;
+}
+h1{
+    font-size:50px;
+    transition-duration:1s;
+    font-weight:light;
+}
+h1:hover{
+    text-shadow:cornflowerblue 0px 2.5px;
+}
