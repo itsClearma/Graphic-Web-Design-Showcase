@@ -14,3 +14,29 @@ h1{
 h1:hover{
     text-shadow:cornflowerblue 0px 2.5px;
 }
+ul{
+    list-style-type:none;
+    margin-left: 10%;
+    padding: 0;
+    width:80%;
+}
+li{
+    float:left;
+}
+li a {
+    display: inline;
+    padding:10px;
+    background-color:cornflowerblue;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color:black;
+    color:white;
+}
+.active{
+    background-color: whitesmoke;
+    color: black;
+}
+.right{
+    float:right;
+}
