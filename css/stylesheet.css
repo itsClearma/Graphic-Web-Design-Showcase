@@ -16,14 +16,16 @@ h1:hover{
     text-shadow:cornflowerblue 0px 2.5px;
 }
 section{
-    list-style-type:none;
-    margin-left: 10%;
+    margin:auto;
+    width:75%;
     padding: 0;
-    width:80%;
+}
+.navbar{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
+    list-style-type:none;
 }
 button{
     margin-left:auto;
@@ -31,12 +33,10 @@ button{
 }
 a button {
     display: inline;
-    padding:15px 45px;
     background-color:slateblue;
     color: aliceblue;
     text-decoration: none;
     cursor:pointer;
-    margin: 0px 5px;
     border-radius:15px 15px 0px 0px;
     transition-duration:1s;
 }
@@ -44,17 +44,16 @@ a{
     text-decoration:none;
 }
 a button:hover:not(.active){
-    background-color:aliceblue;
-    color:slateblue;
-    box-shadow: navy 0px -5px;
-    font-style:italic;    
+    background-image:linear-gradient(180deg,darkslateblue, slateblue);
+    color:aliceblue;
+    box-shadow: navy 0px -5px;    
 }
 .active{
     background-color: aliceblue;
     color: slateblue;
 }
 .right{
-    margin-right:auto;
+  margin-right:auto;
 }
 .folder{
     background-image: linear-gradient(185deg, slateblue, darkslateblue);
