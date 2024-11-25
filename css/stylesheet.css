@@ -35,13 +35,16 @@ a button {
     display: inline;
     background-color:slateblue;
     color: aliceblue;
-    text-decoration: none;
     cursor:pointer;
-    border-radius:15px 15px 0px 0px;
+    border-radius:20px 20px 0px 0px;
     transition-duration:1s;
+    width:100%;
+    padding: 15px 0px;
 }
 a{
     text-decoration:none;
+    width:16.66%;
+    
 }
 a button:hover:not(.active){
     background-image:linear-gradient(180deg,darkslateblue, slateblue);
