@@ -1,7 +1,7 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:midnightblue;
-    background-image:linear-gradient(22.5deg,darkslateblue, midnightblue);
+    background-image:linear-gradient(22.5deg,midnightblue, darkslateblue);
     background-attachment:fixed;
     color: aliceblue;
     text-align:center;
@@ -11,9 +11,6 @@ h1{
     transition-duration:1s;
     font-weight:light;
     padding-top: 20px;
-}
-h1:hover{
-    text-shadow:cornflowerblue 0px 2.5px;
 }
 section{
     margin:auto;
@@ -34,34 +31,33 @@ button{
 }
 a button {
     display: inline;
-    background-color:slateblue;
-    color: aliceblue;
+    background-color:aliceblue;
+    color: slateblue;
     cursor:pointer;
     border-radius:20px 20px 0px 0px;
-    transition-duration:0.5s;
+    transition-duration:0.375s;
     width:100%;
     padding: 15px 0px;
+}
+#active{
+    background-color: slateblue;
+    color:aliceblue;
+    border-radius:20px 20px 0px 0px;
+    font-style: bold;
 }
 a{
     text-decoration:none;
     width:16.66%;
-    
 }
 a button:hover:not(.active){
-    background-image:linear-gradient(180deg,darkslateblue, slateblue 60%);
-    color:aliceblue;
-    box-shadow: midnightblue 0px -5px;    
-}
-.active{
-    background-color: aliceblue;
-    color: slateblue;
+    box-shadow: slateblue 0px -4px;
 }
 .right{
   margin-right:auto;
 }
 .folder{
     background-image: linear-gradient(185deg, slateblue, darkslateblue);
-    height: 800px;
+    min-height:800px;
 }
 img{
     height:200px;
@@ -76,4 +72,19 @@ img{
     color: midnightblue;
     font-style:oblique;
     width:200px;
+    margin: auto;
+    border:solid slateblue 5px;
+}
+.polaroid:hover{
+    border:double slateblue 5px;
+}
+p{
+    padding: 0px 20px;
+}
+.container{
+    display:inline-flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    align-items:center;
+    width:70%;
 }
