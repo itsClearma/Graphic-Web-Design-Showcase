@@ -104,8 +104,17 @@ p{
 }
 .typography{
     border: double slateblue 10px;
-    width:75%;
-    max-width:567px;
-    height:auto;
+    width:70%;
     background-color:white;
+    align-self:center;
+}
+.caption{
+    text-align:justify;
+    line-height:200%;
+    align-self:center;
+}
+h4{
+    writing-mode:vertical-rl;
+    background-color:darkslateblue;
+    border-radius:20px;
 }
