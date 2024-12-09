@@ -104,7 +104,8 @@ p{
 }
 .typography{
     border: double slateblue 10px;
-    width:70%;
+    width: 50%;
+    height:auto;
     background-color:white;
     align-self:center;
 }
