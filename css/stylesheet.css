@@ -148,3 +148,8 @@ h4{
 #back:hover{
     border: solid aliceblue 4px;
 }
+.web{
+    width:410px;
+    height:auto;
+    padding:10px;
+}
