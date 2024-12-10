@@ -60,7 +60,7 @@ a button:hover:not(.active){
   margin-right:auto;
 }
 .folder{
-    background-image: linear-gradient(185deg, slateblue, darkslateblue);
+    background-image: linear-gradient(181deg, slateblue, darkslateblue);
     min-height:800px;
     overflow:hidden;
 }
@@ -79,12 +79,17 @@ img{
     width:200px;
     margin: auto;
     border:solid slateblue 5px;
+    transition-duration:0.375s;
 }
 .polaroid:hover{
-    border:double slateblue 5px;
+    border:double aliceblue 5px;
 }
 p{
     padding: 0px 20px;
+}
+.paragraph{
+    width:90%;
+    margin-left:5%;
 }
 .container{
     display:inline-flex;
@@ -94,19 +99,18 @@ p{
     width:70%;
 }
 .poster{
-    border: double slateblue 10px;
-    width:40%;
+    width:50%;
     height:auto;
 }
 .posterContainer{
     width:100%;
     display:flex;
     flex-direction:row;
-    padding:10px;
+    padding:20px;
     border-top: solid aliceblue 1px;
+    justify-content: center;
 }
 .typography{
-    border: double slateblue 10px;
     width: 50%;
     height:auto;
     background-color:white;
@@ -124,12 +128,23 @@ h4{
 }
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  ::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track {
     background: darkslateblue;
     background-image:linear-gradient(22.5deg,darkslateblue, midnightblue);
-  }
-  ::-webkit-scrollbar-thumb {
+}
+::-webkit-scrollbar-thumb {
     background: aliceblue;
     border-radius:10px;
-  }
+}
+#back{
+    background-color:aliceblue;
+    color:darkslateblue;
+    border-radius:10px;
+    padding:6px;
+    border: solid midnightblue 4px;
+    transition-duration:0.375s;
+}
+#back:hover{
+    border: solid aliceblue 4px;
+}
