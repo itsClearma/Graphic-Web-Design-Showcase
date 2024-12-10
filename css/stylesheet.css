@@ -60,7 +60,7 @@ a button:hover:not(.active){
   margin-right:auto;
 }
 .folder{
-    background-image: linear-gradient(181deg, slateblue, darkslateblue);
+    background-image: linear-gradient(180.5deg, slateblue, darkslateblue);
     min-height:800px;
     overflow:hidden;
 }
